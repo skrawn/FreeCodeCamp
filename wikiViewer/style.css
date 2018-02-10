@@ -3,11 +3,43 @@ body {
     background-color: #341c9e;
 }
 
-p {
+p.regularText{
     color: white;
+}
+
+input {
+    background-color: #341c9e;
+    border: 4px orange solid;
+    border-radius: 16px;
+    padding-left: 10px;
+    color: white;
+    transition: width 0.4s ease-in-out;
 }
 
 .fa-search {
     color: orange;
-    font-size: 64px;
+}
+
+.results {
+    background-color: white;
+    color: black;
+    margin: 1em;
+    cursor: pointer;
+}
+
+#searchArea {
+    height: 64px;
+}
+
+#searchIcon {
+    cursor: pointer;
+}
+
+#searchRandomText {
+    cursor: pointer;
+}
+
+#closeSearch {
+    color: white;
+    padding-right: 30px;
 }

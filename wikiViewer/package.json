@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/http-server/bin/http-server ./",
+    "start": "node_modules/reload/bin/reload",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "http-server": "^0.11.1"
+  "dependencies": {},
+  "devDependencies": {
+    "reload": "^2.2.2"
   }
 }
