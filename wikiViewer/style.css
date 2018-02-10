@@ -1,0 +1,13 @@
+body {
+    margin-top: 300px;
+    background-color: #341c9e;
+}
+
+p {
+    color: white;
+}
+
+.fa-search {
+    color: orange;
+    font-size: 64px;
+}
