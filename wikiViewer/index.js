@@ -37,7 +37,7 @@ function searchWiki() {
             '<div class="row justify-content-md-center results">' +
                 '<div class="offset-md-1">' +
                     '<h3>' + results[i]["title"] + '</h3>' +
-                    '<p>' + results[i]["snippet"] + '</h3>' +
+                    '<p>' + results[i]["snippet"] + '</p>' +
                 '</div>' +
             '</div>';
         }

@@ -1,6 +1,6 @@
 body {
     margin-top: 300px;
-    background-color: #341c9e;
+    background-color: rgb(22, 22, 92);
 }
 
 p.regularText{
@@ -29,6 +29,7 @@ input {
 
 #searchArea {
     height: 64px;
+    position: relative;
 }
 
 #searchIcon {
